@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Purr Haven | Better Care. Happier Cats.</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <div class="logo-cat">
+            <i class="fa-solid fa-cat"></i>
+        </div>
+
+        <div>
+            <h2>Purr Haven</h2>
+            <p>Better care. Happier cats.</p>
+        </div>
+
+    </div>
+
+
+    <nav class="nav-links">
+
+        <a href="#home" class="active">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#breeds">BREEDS</a>
+        <a href="#care">CARE GUIDE</a>
+        <a href="#blog">BLOG</a>
+        <a href="#shop">SHOP</a>
+
+    </nav>
+
+
+    <div class="nav-icons">
+
+        <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+
+        <i class="fa-regular fa-user"></i>
+
+        <div class="bag-icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>0</span>
+        </div>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#breeds">BREEDS</a>
+    <a href="#care">CARE GUIDE</a>
+    <a href="#blog">BLOG</a>
+    <a href="#shop">SHOP</a>
+
+</div>
+
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            WELCOME TO PURR HAVEN 🐾
+        </p>
+
+        <h1>
+            For the love<br>
+            of cats <span>♡</span>
+        </h1>
+
+        <p class="hero-description">
+            Expert tips, trusted products, and endless
+            inspiration for a healthy, happy cat.
+        </p>
+
+        <button class="primary-btn" onclick="exploreNow()">
+            EXPLORE NOW
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <img
+        src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1200&q=85"
+        alt="Happy cat">
+
+        <div class="happy-badge">
+
+            <span>HAPPY CATS</span>
+
+            <i class="fa-solid fa-paw"></i>
+
+            <span>HAPPY HOME</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FEATURE STRIP ================= -->
+
+<section class="features">
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            <i class="fa-regular fa-heart"></i>
+        </div>
+
+        <div>
+            <h4>Expert Care Advice</h4>
+            <p>Practical tips to keep your cat healthy and happy.</p>
+        </div>
+
+    </div>
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+
+        <div>
+            <h4>Premium Products</h4>
+            <p>Handpicked, high-quality essentials for every cat.</p>
+        </div>
+
+    </div>
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            <i class="fa-solid fa-cat"></i>
+        </div>
+
+        <div>
+            <h4>Breed Guides</h4>
+            <p>Learn about cat breeds and find your perfect match.</p>
+        </div>
+
+    </div>
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            <i class="fa-solid fa-pencil"></i>
+        </div>
+
+        <div>
+            <h4>Cat Stories</h4>
+            <p>Heartwarming stories and fun tips from cat lovers.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories-section" id="shop">
+
+    <div class="section-heading">
+
+        <h2>Browse by Category</h2>
+
+        <div class="paw-divider">
+            🐾
+        </div>
+
+    </div>
+
+
+    <div class="category-grid">
+
+
+        <!-- CARD 1 -->
+
+        <div class="category-card">
+
+            <div class="category-image">
+
+                <img
+                src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=700&q=85"
+                alt="Cat health and care">
+
+                <div class="round-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Health & Care</h3>
+
+                <p>
+                    Vet tips, grooming, and daily care essentials.
+                </p>
+
+                <a href="#care">
+                    LEARN MORE
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CARD 2 -->
+
+        <div class="category-card">
+
+            <div class="category-image">
+
+                <img
+                src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=700&q=85"
+                alt="Cat food">
+
+                <div class="round-icon food">
+                    <i class="fa-solid fa-bowl-food"></i>
+                </div>
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Food & Nutrition</h3>
+
+                <p>
+                    Find the best food and treats for your cat's well-being.
+                </p>
+
+                <a href="#shop">
+                    SHOP FOOD
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CARD 3 -->
+
+        <div class="category-card">
+
+            <div class="category-image">
+
+                <img
+                src="https://images.unsplash.com/photo-1615789591457-74a63395c990?auto=format&fit=crop&w=700&q=85"
+                alt="Cat toys">
+
+                <div class="round-icon purple">
+                    <i class="fa-solid fa-paw"></i>
+                </div>
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Toys & Accessories</h3>
+
+                <p>
+                    Fun toys, cozy beds, and must-have accessories.
+                </p>
+
+                <a href="#shop">
+                    SHOP ACCESSORIES
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CARD 4 -->
+
+        <div class="category-card">
+
+            <div class="category-image">
+
+                <img
+                src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=700&q=85"
+                alt="Cat adoption">
+
+                <div class="round-icon yellow">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Adoption & Rescue</h3>
+
+                <p>
+                    Give a cat a loving home and change a life.
+                </p>
+
+                <a href="#about">
+                    ADOPT NOW
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <div class="newsletter-content">
+
+        <div class="newsletter-text">
+
+            <h2>
+                Join our cat-loving<br>
+                community!
+            </h2>
+
+            <p>
+                Get exclusive tips, adorable stories,
+                and special offers straight to your inbox.
+            </p>
+
+        </div>
+
+
+        <form class="newsletter-form" id="newsletterForm">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <button type="submit">
+                SUBSCRIBE
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <div class="newsletter-cat">
+
+        <img
+        src="https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=600&q=85"
+        alt="Cute cat">
+
+        <span>♡</span>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= INSTAGRAM ================= -->
+
+<section class="instagram-section">
+
+    <div class="instagram-heading">
+
+        <h3>
+            Follow our adventures
+            <i class="fa-brands fa-instagram"></i>
+        </h3>
+
+    </div>
+
+
+    <div class="instagram-grid">
+
+        <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=500&q=80" alt="Cat">
+
+        <img src="https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=500&q=80" alt="Cat">
+
+        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=500&q=80" alt="Cat">
+
+        <img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=500&q=80" alt="Cats">
+
+        <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=500&q=80" alt="Cat">
+
+        <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=500&q=80" alt="Cat">
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-main">
+
+
+        <!-- BRAND -->
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+
+                <i class="fa-solid fa-cat"></i>
+
+                <div>
+
+                    <h2>Purr Haven</h2>
+
+                    <p>Better care.<br>Happier cats.</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- COMPANY -->
+
+        <div class="footer-column">
+
+            <h4>COMPANY</h4>
+
+            <a href="#about">About Us</a>
+            <a href="#about">Our Mission</a>
+            <a href="#breeds">Careers</a>
+            <a href="#about">Contact Us</a>
+
+        </div>
+
+
+
+        <!-- HELP -->
+
+        <div class="footer-column">
+
+            <h4>HELP</h4>
+
+            <a href="#">FAQs</a>
+            <a href="#">Shipping & Returns</a>
+            <a href="#">Track Your Order</a>
+            <a href="#">Privacy Policy</a>
+
+        </div>
+
+
+
+        <!-- RESOURCES -->
+
+        <div class="footer-column">
+
+            <h4>RESOURCES</h4>
+
+            <a href="#care">Care Guide</a>
+            <a href="#breeds">Cat Breeds</a>
+            <a href="#blog">Blog</a>
+            <a href="#about">Adoption</a>
+
+        </div>
+
+
+
+        <!-- SHOP -->
+
+        <div class="footer-column">
+
+            <h4>SHOP</h4>
+
+            <a href="#shop">All Products</a>
+            <a href="#shop">New Arrivals</a>
+            <a href="#shop">Best Sellers</a>
+            <a href="#shop">Gift Cards</a>
+
+        </div>
+
+
+        <div class="footer-decoration">
+
+            <i class="fa-solid fa-cat"></i>
+
+            <i class="fa-solid fa-seedling"></i>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2024 Purr Haven. All rights reserved.
+
+        <span>🐾</span>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= SEARCH POPUP ================= -->
+
+<div class="search-overlay" id="searchOverlay">
+
+    <div class="search-box">
+
+        <button id="closeSearch">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <h2>What are you looking for?</h2>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search Purr Haven..."
+        >
+
+        <button class="primary-btn" onclick="performSearch()">
+            SEARCH
+        </button>
+
+        <p id="searchMessage"></p>
+
+    </div>
+
+</div>
+
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
