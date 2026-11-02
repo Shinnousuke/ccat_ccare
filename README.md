@@ -104,7 +104,7 @@ correctly.
 
 ## Author
 
-Add your name or team name here.
+ME
 
 ------------------------------------------------------------------------
 
